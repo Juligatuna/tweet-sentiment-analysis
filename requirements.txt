@@ -1,0 +1,11 @@
+streamlit
+pandas
+numpy
+tensorflow
+transformers
+scikit-learn
+seaborn
+matplotlib
+plotly
+tqdm
+kaleido

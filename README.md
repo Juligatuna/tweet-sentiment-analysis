@@ -37,3 +37,26 @@ This project uses the Sentiment140 dataset.
 ### Model
 A DistilBERT model fine-tuned on Sentiment140 for binary sentiment classification (positive/negative).
  
+
+### 📥 Download Pre-trained Model
+Due to GitHub’s 100MB file size limit, the pre-trained model (tf_model.h5) is not stored directly in this repository.
+
+Instead, download it from Google Drive: 
+https://drive.google.com/drive/folders/1XQkQDYAlrAxw3V_zJ7mw6hy72UnuHmWw?usp=drive_link
+
+### 👉 Download the model from Google Drive folder
+
+After downloading, place tf_model.h5 inside the distilbert_sentiment/ folder.
+
+### 🔄 Optional: Download Model Automatically in Code
+You can also download the model in your Python code using gdown:
+
+import gdown
+
+url = "https://drive.google.com/uc?export=download&id=FILE_ID"
+output = "distilbert_sentiment/tf_model.h5"
+gdown.download(url, output, quiet=False)
+
+Install gdown:
+
+pip install gdown

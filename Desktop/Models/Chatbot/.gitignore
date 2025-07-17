@@ -8,4 +8,4 @@ __pycache__/
 *.safetensors
 
 # System
-.DS_Store
+.DS_Store*.env 

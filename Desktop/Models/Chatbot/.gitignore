@@ -1,11 +1,14 @@
 # Secrets
 .env
 .env*
-
+ECHO is on.
 # Python
 __pycache__/
 *.py[cod]
 *.safetensors
-
+ECHO is on.
+# Jupyter
+.ipynb_checkpoints/
+ECHO is on.
 # System
-.DS_Store*.env 
+.DS_Store

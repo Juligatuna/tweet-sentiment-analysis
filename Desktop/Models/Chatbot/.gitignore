@@ -12,3 +12,11 @@ ECHO is on.
 ECHO is on.
 # System
 .DS_Store
+ECHO is on.
+# IGNORE EVERYTHING OUTSIDE THIS FOLDER
+/*
+!/.gitignore
+!/README.md
+!/app.py
+!/requirements.txt
+!/*.ipynb
